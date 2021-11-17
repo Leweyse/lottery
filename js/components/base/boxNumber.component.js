@@ -1,4 +1,4 @@
-function ball(num) {
+function boxNumber(num) {
     let div = document.createElement('div');
     let p = document.createElement('p');
 
@@ -13,4 +13,4 @@ function ball(num) {
     return div;
 }
 
-export default ball;
+export default boxNumber;

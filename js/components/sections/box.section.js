@@ -1,4 +1,4 @@
-import ball from "../components/ball.component.js";
+import boxNumber from "../base/boxNumber.component.js";
 
 function box(parent, id, limit) {
     let section = document.createElement('section');
@@ -8,7 +8,7 @@ function box(parent, id, limit) {
 
     if (limit !== null) {
         for (let i = 1; i <= limit; i++) {
-            section.appendChild(ball(i));
+            section.appendChild(boxNumber(i));
         }   
     }
 
